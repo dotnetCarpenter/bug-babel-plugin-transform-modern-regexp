@@ -1,0 +1,13 @@
+{
+  "name": "babel-plugin-transform-modern-regexp",
+  "scripts": {
+    "test": "babel --plugins transform-modern-regexp -o compiled.js script.js && node compiled.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-modern-regexp": "^0.0.5"
+  }
+}
